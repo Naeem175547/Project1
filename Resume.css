@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    /* background-color:#EEE; */
+    
+    
+    margin: auto;
+    margin-top:2px;
+    padding: 10px;
+    /* border:1px solid black; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+
+    
+    
+   
+
+    
+    
+}
+.left_section{
+   flex:0 0 250px;
+    /* padding: 0px 10px; */
+
+       
+   
+
+
+}
+.left_section .left_top{
+    text-align: center;
+    color:#fff;
+    /* background-color: rgb(0, 0, 86); */
+    background-image: linear-gradient(120deg,rgb(132, 38, 132) ,rgb(0, 128, 115) 60%);
+    
+    padding: 15px 10px;
+    line-height: 30px;
+
+}
+.left_section .left_top img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.left_section .left_top p{
+    font-size: 1.2rem;
+}
+.left_section .left_top span {
+    font-size: 0.8rem;
+
+}
+.left_section .left_bottom{
+    background-color: rgb(31, 30, 30);
+    color:#fff;
+}
+.left_section .left_bottom h3{
+    
+    border-bottom: 1px solid rgb(236, 216, 216);
+    padding-bottom: 5px;
+    
+}
+.left_section .left_bottom{
+    padding: 15px 15px;
+    
+   
+
+}
+.left_section .left_bottom>div{
+    margin-top:15px;
+    line-height: 23px;
+}
+.range{
+    height: 4px;
+    background-color:#fff;
+    border-radius: 10px;
+    
+    
+}
+.range .main_range{
+    height: 3px;
+    width: 80%;
+    background-color: aqua;
+    border-radius: 6px;
+}
+
+.right_section{
+    padding-left: 20px;
+    padding-top:5px;
+    
+    background-color: #fff;
+    background-image: linear-gradient(120deg,rgb(132, 38, 132) ,rgb(0, 128, 115) 60%);
+    width: 90%;
+    color:#fff;
+    
+    
+    
+    
+
+}
+
+.right_section h3{
+    /* background-image: conic-gradient(rgb(32, 32, 78) 0deg ,rgb(32, 32, 78) 45deg,rgb(0, 217, 255) 45deg,rgb(0, 255, 221) 243deg,rgb(42, 42, rgb(32, 32, 105) 45deg, blue); */
+    border-bottom: 2px solid black;
+    
+    padding-bottom: 5px;
+    font-weight: 700;
+    color:rgb(83, 83, 189);
+    color: rgb(14, 13, 13);
+   
+
+}
+.objective p{
+    margin:10px 0px;
+}
+.experience p{
+    margin:10px 0px;
+}
+.education table{
+    text-align: center;
+    border-spacing: 20px 15px;
+    
+    
+}
+.project{
+    list-style-position: inside;
+    line-height: 30px;
+}
+@media (max-width:810px) {
+    .container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .left_section{
+        flex:0 1 700px;
+        text-align: center;
+        
+    }
+    .right_section{
+        flex:0 1 700px;
+       
+        
+    }
+    
+}
